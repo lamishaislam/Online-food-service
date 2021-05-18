@@ -30,13 +30,4 @@ class order
 		return $this->price;
 	}
 
-
-	public function getEmailVariables()
-	{
-		return [
-			'full_name' => $this->getFullName(),
-			'email' => $this->getEmail(),
-		];
-	}
-
 }
